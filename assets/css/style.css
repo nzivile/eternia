@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    width: 1300px;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.header-img {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.nav {
+    height: 70px;
+    position: fixed;
+    background-color: rgba(86, 83, 76, 0.54);
+}
+
+.nav .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 770px;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.header-icons {
+    width: 100px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.header-icons li img {
+    height: 17px;
+    width: 17px;
+}
+
+.header-img .container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img .shadow{
+    width: 903px;
+    height: 897px;
+    background-image: url(../images/shadow.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.pastry {
+    font-size: 92px;
+    margin-bottom: 72px;
+    letter-spacing: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.line {
+    margin-bottom: 72px;
+    position: relative;
+    z-index: 2;
+}
+
+.resist {
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 36px;
+    width: 640px;
+    text-align: center;
+    margin-bottom: 72px;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-button {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-button a {
+    padding: 20px 56px;
+    color: white;
+    background-color: rgba(86, 83, 76, 0.53);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 2px solid #9e9c93;
+    position: relative;
+    z-index: 2;
+}
