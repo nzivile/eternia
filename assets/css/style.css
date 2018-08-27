@@ -89,7 +89,7 @@ html, body {
     align-items: center;
 }
 
-.header-img .shadow{
+.header-img .shadow {
     width: 903px;
     height: 897px;
     background-image: url(../images/shadow.png);
@@ -144,3 +144,162 @@ html, body {
     position: relative;
     z-index: 2;
 }
+
+.art {
+    height: 760px;
+    background-image: url(../images/cake-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.art .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cakes-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.art-text {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #56534c;
+    letter-spacing: 2.2px;
+    display: flex;
+    justify-content: center;
+}
+
+.art-create {
+    margin-bottom: 70px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b19279;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.2px;
+}
+
+.art-paragraph {
+    font-size: 14px;
+    color: #56534c;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    width: 490px;
+    margin-bottom: 46px;
+}
+
+.chef {
+    font-size: 24px;
+    color: #56534c;
+    letter-spacing: 2.5px;
+    margin-bottom: 50px;
+}
+
+.chef-cook {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 18px;
+}
+
+.benito, .gasparo {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    color: #56534c;
+    width: 110px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px #d7d5ca solid;
+    border-bottom: 1px #d7d5ca solid;
+}
+
+.chef-img-white {
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+
+.chef-img {
+    background-image: url(../images/Chef.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cake-text-img {
+    background-image: url(../images/cake-text.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 406px;
+    height: 95px;
+}
+
+.cakes-img {
+    width: 620px;
+    height: 522px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cake-img-holder{
+    width: 296px;
+    height: 250px;
+    position: relative;
+}
+.cake-img-border{
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;
+    border: 5px solid white;
+}
+
+.cakes-img-one {
+    background-image: url("../images/cake-one.jpg");
+    margin-bottom: 20px;
+}
+
+.cakes-img-two {
+    background-image: url("../images/cake-two.jpg");
+    margin-bottom: 20px;
+}
+
+.cakes-img-three {
+    background-image: url("../images/cake-three.jpg");
+}
+
+.cakes-img-four {
+    background-image: url("../images/cake-four.jpg");
+}
+
+.pancakes {
+    background-image: url("../images/pancakes-background.jpg");
+    height: 758px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
