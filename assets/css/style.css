@@ -366,7 +366,34 @@ html, body {
     background-image: url("../images/pancakes-left-bg.png");
     width: 420px;
     height: 512px;
+    display:flex;
+    flex-direction: center;
+    align-items: center;
 }
+
+.all-white-stars {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 22px;
+    height: 124px;
+}
+
+.white-star {
+    width: 21px;
+    height: 20px;
+    background-image: url("../images/white-star.png");
+}
+
+.white-star-empty{
+    width: 21px;
+    height: 20px;
+    background-image: url("../images/empty-star.png");
+}
+
+
 
 .pancakes-right {
     background-image: url("../images/pancakes-right-bg.png");
@@ -374,6 +401,9 @@ html, body {
     height: 512px;
     background-position: right center;
     position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .pancakes-right-menu {
@@ -389,6 +419,57 @@ html, body {
     border-radius: 50%;
     background-color: white;
 }
+
+.pancakes-header-one{
+    font-size: 48px;
+    letter-spacing: 3.5px;
+    color: #56534c;
+    margin-left: 64px;
+    margin-bottom: 10px;
+    margin-top: 82px;
+}
+
+.pancakes-header-two{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a47d5e;
+    letter-spacing: 1.5px;
+    margin-left: 64px;
+    margin-bottom: 70px;
+}
+
+.pancakes-paragraph{
+    font-size: 14px;
+    color: #56534c;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-left: 64px;
+    margin-right: 74px;
+    margin-bottom: 56px;
+}
+
+.all-gold-stars {
+    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    height: 14px;
+}
+
+.gold-star {
+    background-image: url("../images/gold-star.png");
+    height: 14px;
+    width: 14px;
+}
+
+.black-star {
+    background-image: url("../images/black-star.png");
+    height: 14px;
+    width: 14px;
+}
+
 
 
 
